@@ -1,5 +1,5 @@
 class Bookmarks
   def self.all
-    ["Netflix", "Youtube", "Insta"]
+    ["www.netflix.com", "www.youtube.com", "www.instagram.com"]
   end
 end
