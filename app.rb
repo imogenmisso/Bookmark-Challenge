@@ -7,7 +7,7 @@ class App < Sinatra::Base
   end
   get '/bookmarks' do
     @bookmarks = Bookmarks.all.join("\n")
-    erb(:bookmarks)
+    erb(:'bookmarks/index')
   end
   run! if app_file == $0
 end
