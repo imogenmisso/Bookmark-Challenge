@@ -28,7 +28,7 @@ RSpec.configure do |config|
   # assertions if you prefer.
   config.before(:each) do
     require 'setup_test_database'
-  end 
+  end
   config.expect_with :rspec do |expectations|
     # This option will default to `true` in RSpec 4. It makes the `description`
     # and `failure_message` of custom matchers include text for helper methods
